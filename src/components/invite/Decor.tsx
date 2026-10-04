@@ -91,9 +91,9 @@ export function FloatingPetals() {
 
 export function WaxSeal({ label, size = 112 }: { label: string; size?: number }) {
   return (
-    <span className="seal relative grid place-items-center" style={{ width: size, height: size }}>
+    <span className="seal relative grid place-items-center" style={{ width: size-20, height: size-20 }}>
       <span className="absolute inset-[12%] rounded-full border border-cream/20" />
-      <span className="rose-gold-text font-script" style={{ fontSize: size * 0.3 }}>
+      <span className="rose-gold-text font-script" style={{ fontSize: size * 0.2,borderWidth:0,marginLeft:-4,width:"100%" }}>
         {label}
       </span>
     </span>

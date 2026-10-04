@@ -22,7 +22,7 @@ export default function Home() {
             <Schedule />
             <Location />
             <DressCode />
-            <RSVPSection />
+            {/* <RSVPSection /> */}
             <Footer />
           </>
         )}
